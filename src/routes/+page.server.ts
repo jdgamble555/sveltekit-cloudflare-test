@@ -13,7 +13,7 @@ const consoleOrigin = async () => {
 
     const { url } = getRequestEvent();
 
-    await new Promise(resolve => setTimeout(resolve, 2000));
+    //await new Promise(resolve => setTimeout(resolve, 2000));
 
-    console.log(url.origin);
+    //console.log(url.origin);
 };
